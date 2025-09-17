@@ -25,7 +25,7 @@ terraform-ec2-s3/
 ├── variables.tf                  # Input variables for root module
 └── README.md                     # Project documentation
 
----
+```
 
 ## ✅ Prerequisites
 
@@ -42,7 +42,7 @@ terraform-ec2-s3/
 git clone https://github.com/shivuu2005/Terraform-EC2-S3.git
 cd Terraform-EC2-S3
 
----
+```
 
 ### Step 2 – Configure Git
 
@@ -71,9 +71,7 @@ git config pull.rebase false
 
 If you see this error while pushing:
 
-```
-Updates were rejected because the remote contains work that you do not have locally.
-```
+- Updates were rejected because the remote contains work that you do not have locally.
 
 Run:
 
@@ -262,12 +260,10 @@ If you encounter any issues, create an issue in this repository or contact the m
 
 Happy Infrastructure as Code! 🚀
 
-```
-
 ---
 
 
-```
+
 
 
 
