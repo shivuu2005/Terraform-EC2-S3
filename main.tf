@@ -1,6 +1,7 @@
 module "ec2" {
   source        = "./modules/ec2"
-  ami           = "ami-0c02fb55956c7d316"
+  ami           = "ami-0cfde0ea8edd312d4"
+
   instance_type = "t2.micro"
   name          = "MyEC2Instance"
 }
