@@ -237,11 +237,11 @@ git pull
 
 ## ✅ Best Practices
 
-✔ Use GitHub Secrets for AWS credentials
-✔ Use SSH keys for Git authentication instead of passwords
-✔ Pull remote changes before making local commits
-✔ Resolve merge conflicts carefully
-✔ Avoid force pushing unless absolutely necessary
+- Use GitHub Secrets for AWS credentials
+- Use SSH keys for Git authentication instead of passwords
+- Pull remote changes before making local commits
+- Resolve merge conflicts carefully
+- Avoid force pushing unless absolutely necessary
 
 ---
 
@@ -261,6 +261,7 @@ If you encounter any issues, create an issue in this repository or contact the m
 Happy Infrastructure as Code! 🚀
 
 ---
+
 
 
 
