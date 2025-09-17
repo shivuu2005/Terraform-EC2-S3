@@ -1,12 +1,6 @@
-
----
-
-```markdown
 # Terraform EC2 and S3 Deployment
 
 This repository contains Terraform code to create an AWS EC2 instance and an S3 bucket using a modular structure. The infrastructure deployment is automated using GitHub Actions, and proper authentication using AWS credentials and GitHub Personal Access Token (PAT) or SSH is explained.
-
----
 
 ## ✅ Project Structure
 
@@ -277,5 +271,6 @@ Happy Infrastructure as Code! 🚀
 
 
 ```
+
 
 
