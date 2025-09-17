@@ -10,7 +10,7 @@ This repository contains Terraform code to create an AWS EC2 instance and an S3 
 
 ## ✅ Project Structure
 
-```shell
+```sh
 
 terraform-ec2-s3/
 ├── .github/
@@ -30,8 +30,6 @@ terraform-ec2-s3/
 ├── providers.tf                  # AWS provider configuration
 ├── variables.tf                  # Input variables for root module
 └── README.md                     # Project documentation
-
-````
 
 ---
 
@@ -279,4 +277,5 @@ Happy Infrastructure as Code! 🚀
 
 
 ```
+
 
