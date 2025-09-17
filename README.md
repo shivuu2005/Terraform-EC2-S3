@@ -34,8 +34,6 @@ terraform-ec2-s3/
 3. Git installed – [Git Setup](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 4. GitHub account – [Sign Up](https://github.com/join)
 
----
-
 ## ✅ Setup Instructions
 
 ### Step 1 – Clone the Repository
@@ -43,7 +41,6 @@ terraform-ec2-s3/
 ```bash
 git clone https://github.com/shivuu2005/Terraform-EC2-S3.git
 cd Terraform-EC2-S3
-````
 
 ---
 
@@ -56,7 +53,7 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 
-Set upstream branch to track remote:
+- Set upstream branch to track remote:
 
 ```bash
 git branch --set-upstream-to=origin/master master
@@ -271,6 +268,7 @@ Happy Infrastructure as Code! 🚀
 
 
 ```
+
 
 
 
