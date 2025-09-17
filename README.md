@@ -15,7 +15,7 @@ This repository contains Terraform code to create an AWS EC2 instance and an S3 
 terraform-ec2-s3/
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml            # GitHub Actions workflow
+│       └── deploy.yml            # GitHub Actions workflow file
 ├── modules/
 │   ├── ec2/
 │   │   ├── main.tf               # EC2 instance configuration
@@ -25,11 +25,11 @@ terraform-ec2-s3/
 │       ├── main.tf               # S3 bucket configuration
 │       ├── variables.tf          # S3 input variables
 │       └── outputs.tf            # S3 output values
-├── providers.tf                  # AWS provider setup
-├── main.tf                       # Module references
-├── outputs.tf                    # Outputs
-├── variables.tf                  # Input variables
-└── README.md                     # This file
+├── main.tf                       # Root module configuration
+├── outputs.tf                    # Output definitions
+├── providers.tf                  # AWS provider configuration
+├── variables.tf                  # Input variables for root module
+└── README.md                     # Project documentation
 
 ````
 
